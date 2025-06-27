@@ -24,7 +24,7 @@
 1. Clone **ArcOS** (which includes ArcNull) into your `~/Documents` folder:
 
 ```bash
-git clone https://github.com/YourUsername/ArcOS ~/Documents/ArcOS
+git clone https://github.com/Preclik02/ArcOS ~/Documents/ArcOS
 ```
 
 2. Make sure `arcnull` is in your PATH by editing your `~/.bashrc` file:
@@ -69,11 +69,6 @@ Contributions are welcome! Feel free to fork the repo and submit a pull request 
 
 ---
 
-## 📄 License
-
-This project is licensed under the MIT License.
-
----
 
 ## 💬 Feedback
 
