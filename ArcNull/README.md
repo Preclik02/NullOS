@@ -1,7 +1,7 @@
 ```markdown
 # ArcNull
 
-**ArcNull** is the official shell for [ArcOS](https://github.com/preclik02/ArcOS), built in **C++** and designed to be beginner-friendly. It uses familiar **Bash-style commands**, making it intuitive and easy to learn for new users.
+**ArcNull** is the official terminal for [ArcOS](https://github.com/preclik02/ArcOS), built in **C++** and designed to be beginner-friendly. It uses familiar **Bash-style commands**, making it intuitive and easy to learn for new users.
 
 ---
 
@@ -19,7 +19,7 @@
 
 ## 📦 Installation
 
-> ⚠️ This shell is intended to be used as part of the ArcOS system.
+> ⚠️ This terminal is intended to be used as part of the ArcOS system.
 
 1. Clone **ArcOS** (which includes ArcNull) into your `~/Documents` folder:
 
@@ -81,5 +81,5 @@ If you have suggestions or issues, please open an issue on the GitHub repository
 
 ---
 
-Enjoy using **ArcNull** – your lightweight, beginner-friendly shell for ArcOS!
+Enjoy using **ArcNull** – your lightweight, beginner-friendly terminal for ArcOS!
 ```
