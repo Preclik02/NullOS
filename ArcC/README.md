@@ -27,8 +27,8 @@
 ## ⚙️ How It Works
 
 1. Write your cursed `.arc` code (good luck).
-2. Call `arcc yourfile.arc` from the **ArcNull** shell.
-3. `arcc` compiles it and runs the resulting program (if compilation succeeds).
+2. Call `arcc` from the **ArcNull** shell.
+3. `arcc` asks you for the filename (without .arc) than compiles it and runs the resulting program (if compilation succeeds).
 4. `.c` file gets deleted immediately.
 
 ---
@@ -36,7 +36,7 @@
 ## 🧠 What’s in the .arc Files?
 
 - Utter chaos
-- A custom language only **you** understand
+- A custom language only **preclik02** understands
 - The `.arc` extension isn’t recognized by the system, but **Arcc** knows what’s up
 
 ---
@@ -59,7 +59,7 @@ source ~/.bashrc
 Run from **ArcNull**:
 
 ```bash
-arcc helloworld.arc
+arcc
 ```
 
 ---
@@ -68,7 +68,7 @@ arcc helloworld.arc
 
 Want to decode the cipher (sifra)? The docs will guide you through letters, symbols, and chaos. Every command is based on randomly chosen characters that you’ll need to decipher.
 
-It’s terrible. It’s funny. It’s yours.
+It’s terrible. It’s funny.
 
 ---
 
@@ -86,7 +86,7 @@ MIT License
 
 ## 💬 Final Thoughts
 
-ArcC and Arcc aren’t just tools. They’re a puzzle. They’re an experience. Most importantly — they’re a joke only you can understand.
+ArcC and Arcc aren’t just tools. They’re a puzzle. They’re an experience. Most importantly — they’re a joke only preclik02 can understand.
 
 Use wisely.
 ```
