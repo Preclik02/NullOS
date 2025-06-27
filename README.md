@@ -39,18 +39,18 @@ To run ArcNull:
 arcnull
 ```
 
-> Make sure the ArcNull folder is correctly added to your `PATH`. See the [ArcNull README](https://github.com/YourUsername/ArcNull) for instructions.
+> Make sure the ArcNull folder is correctly added to your `PATH`. See the [ArcNull README](https://github.com/Preclik02/ArcOS/tree/main/ArcNull) for instructions.
 
 ---
 
 ## 🚧 Development
 
-ArcOS is a hobby project by a single teenage developer, still in progress but frequently updated. Its goal is to offer a fun, weird, and personalized Linux-based environment.
+ArcOS is a hobby project by a single 14y.o. developer, still in progress but frequently updated. Its goal is to offer a fun, weird, and personalized Linux-based environment.
 
 Expect active development in:
 
-- ArcNull shell
-- ArcC language/compiler
+- ArcNull terminal
+- ArcC (the framework) and Arcc (the compiler)
 - System scripts and future GUI
 
 ---
@@ -62,16 +62,11 @@ Everything included in ArcOS is **open source** and **free to fork**.
 If you want to contribute or give feedback:
 
 - ✉️ Contact me via email or Discord (check GitHub profile)
-- 🛠 Submit PRs to improve UI, shell, or tooling
+- 🛠 Submit PRs to improve UI or terminal
 - 🧪 Share ideas or test features!
 
 ---
 
-## 📄 License
-
-ArcOS and all bundled tools are licensed under the **MIT License**.
-
----
 
 Thanks for trying ArcOS — a strange, fun project made by a Czech teen who loves weird code. 🚀
 ```
