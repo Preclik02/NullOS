@@ -57,12 +57,11 @@ Expect active development in:
 
 ## 📤 Contributions & Contact
 
-Everything included in ArcOS is **open source** and **free to fork**.
+Everything included in ArcOS is **open source** and **free to copy**.
 
 If you want to contribute or give feedback:
 
-- ✉️ Contact me via email or Discord (check GitHub profile)
-- 🛠 Submit PRs to improve UI or terminal
+- ✉️ Contact me with email or Discord (check GitHub profile)
 - 🧪 Share ideas or test features!
 
 ---
