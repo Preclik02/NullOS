@@ -2,7 +2,7 @@
 
 **ArcOS** is a full eco-system of Arc builded by solo myself (preclik02) and no one else only my job.
 I have plan on maintain it for some time or even full time. I plan on some commits every week or two.
-The .iso image (for ArcOS-1.0.0 - witch is 1st public release) can be found there: https://www.dropbox.com/scl/fi/wrrroev2pr2z9v0nvx6q9/ArcOS-1.0.0.iso?e=2&rlkey=xpgk4gwn66bgavfbvmmf4e0vt&st=4yzwjg4m&dl=0
+The .iso image (for ArcOS-1.0.0 - witch is 1st public release) can be found there: [iso file](https://www.dropbox.com/scl/fi/wrrroev2pr2z9v0nvx6q9/ArcOS-1.0.0.iso?e=2&rlkey=xpgk4gwn66bgavfbvmmf4e0vt&st=4yzwjg4m&dl=0)
 When you download the iso file and use tools like rufus or balenaEtcher to flash it on like USB stick it can be injected into pretty mutch any machine.
 I just downloaded the .iso image for the linux mint cinnamon and got it into cubic and copied reops of this whole repo in there Im not sure if it has the files included in ~/.bsahrc so after booting the system up please check if it is there at the end a line like this
 
