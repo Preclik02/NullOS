@@ -1,7 +1,7 @@
 ```markdown
 # ArcC & Arcc
 
-**ArcC** is a chaotic C-based framework and **Arcc** is its companion compiler — a cursed duo built for ArcOS. Inspired by **Brainfuck** and **Whitespace**, ArcC takes the concept of unreadable code to new levels with its own `.arc` file format and a custom cipher (sifra). No, really — **you won’t know what the code means until it's compiled.**
+**ArcC** is a wierd and chaotic C-based framework and **Arcc** is its companion compiler — a cursed duo built for ArcOS. Inspired by **Brainfuck** and **Whitespace**, ArcC takes the concept of unreadable code to new levels with its own `.arc` file format and a custom cipher (sifra). No, really — **you won’t know what the code means until it's compiled.**
 
 ---
 
@@ -78,11 +78,6 @@ This project is not meant to be practical — but feel free to contribute if you
 
 ---
 
-## 📄 License
-
-MIT License
-
----
 
 ## 💬 Final Thoughts
 
