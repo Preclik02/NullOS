@@ -1,7 +1,7 @@
 ```markdown
 # ArcNull
 
-**ArcNull** is the official shell for [ArcOS](https://github.com/YourUsername/ArcOS), built in **C++** and designed to be beginner-friendly. It uses familiar **Bash-style commands**, making it intuitive and easy to learn for new users.
+**ArcNull** is the official shell for [ArcOS](https://github.com/preclik02/ArcOS), built in **C++** and designed to be beginner-friendly. It uses familiar **Bash-style commands**, making it intuitive and easy to learn for new users.
 
 ---
 
