@@ -19,12 +19,12 @@ fi
 # Step 2: Compile binaries
 echo "[2/5] Compiling ArcNull programs..."
 
-cd "$TARGET_DIR/ArcNull" || {
-    echo "[!] Failed to enter ArcNull directory."
-    exit 1
-}
+CPP_DIR="$TARGET_DIR/ArcNull/cpp"
+C_DIR="$TARGET_DIR/ArcNull/c"
+BIN_DIR="$TARGET_DIR/ArcNull"
 
-compile_list=(
+# List of C++ files and output names
+cpp_files=(
     "arcnull.cpp arcnull"
     "apps.cpp apps"
     "ssh_connect.cpp ssh_connect"
@@ -34,13 +34,39 @@ compile_list=(
     "idek.cpp idek"
 )
 
-for item in "${compile_list[@]}"; do
+# List of C files and output names
+c_files=(
+    "nmap_check.c nmap_check"
+    "ip_check.c ip_check"
+)
+
+# Compile C++ files
+for item in "${cpp_files[@]}"; do
     src=$(echo "$item" | cut -d' ' -f1)
     out=$(echo "$item" | cut -d' ' -f2)
-    
-    echo "Compiling $src -> $out..."
-    if ! g++ "$src" -o "$out"; then
-        echo "[!] Compilation failed for $src. The repo may not have cloned properly. Please manually check the files."
+
+    # Compile arcnull.cpp from ArcNull root, others from cpp/
+    if [[ "$src" == "arcnull.cpp" ]]; then
+        src_path="$TARGET_DIR/ArcNull/$src"
+    else
+        src_path="$CPP_DIR/$src"
+    fi
+
+    echo "Compiling C++: $src -> $out..."
+    if ! g++ "$src_path" -o "$BIN_DIR/$out"; then
+        echo "[!] Compilation failed for $src."
+        exit 1
+    fi
+done
+
+# Compile C files
+for item in "${c_files[@]}"; do
+    src=$(echo "$item" | cut -d' ' -f1)
+    out=$(echo "$item" | cut -d' ' -f2)
+
+    echo "Compiling C: $src -> $out..."
+    if ! gcc "$C_DIR/$src" -o "$BIN_DIR/$out"; then
+        echo "[!] Compilation failed for $src."
         exit 1
     fi
 done
@@ -67,4 +93,3 @@ else
 fi
 
 echo "[✔] ArcOS setup complete."
-
