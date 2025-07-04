@@ -32,6 +32,6 @@ gcc ~/Documents/NullOS/Null/c/ip_check.c -o ~/Documents/NullOS/Null/c/ip_check
 ```
 
 
-After all that you should be able to run null in your terminal and it should start if it still doesent than start from the begining or something or if you have more questions you can e-mail me on ---> nulldecode@gmail.com I should respond.
+After all that you should be able to run null in your terminal and it should start if it still doesent than start from the begining or something or if you have more questions you can e-mail me on ---> nulldecode1@gmail.com I should respond.
 
 After all the null is just a shell-emulator for new or beginer users if you like the idea and want to check out my discord or join dev team make the challenge I mentioned before if you dont know how than you are cooked you can try on reatching out to me with the email maybye I will give you a hint.
