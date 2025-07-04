@@ -20,7 +20,7 @@ After that try to run the null in your bash terminal if it doesent work try re-c
 
 
 ```bash
-g++ ~/Documents/NullOS/Null/cpp/null.cpp -o ~/Documents/NullOS/Null/cpp/null
+g++ ~/Documents/NullOS/Null/null.cpp -o ~/Documents/NullOS/Null/null
 g++ ~/Documents/NullOS/Null/cpp/apps.cpp -o ~/Documents/NullOS/Null/cpp/apps
 g++ ~/Documents/NullOS/Null/cpp/ssh_connect.cpp -o ~/Documents/NullOS/Null/cpp/ssh_connect
 g++ ~/Documents/NullOS/Null/cpp/vnc_connect.cpp -o ~/Documents/NullOS/Null/cpp/vnc_connect
