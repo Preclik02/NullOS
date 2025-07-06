@@ -27,7 +27,6 @@ g++ ~/Documents/NullOS/Null/cpp/vnc_connect.cpp -o ~/Documents/NullOS/Null/cpp/v
 g++ ~/Documents/NullOS/Null/cpp/Nullc.cpp -o ~/Documents/NullOS/Null/cpp/Nullc
 g++ ~/Documents/NullOS/Null/cpp/rpg.cpp -o ~/Documents/NullOS/Null/cpp/rpg
 g++ ~/Documents/NullOS/Null/cpp/idek.cpp -o ~/Documents/NullOS/Null/cpp/idek
-gcc ~/Documents/NullOS/Null/c/nmap_check.c -o ~/Documents/NullOS/Null/c/nmap_check
 gcc ~/Documents/NullOS/Null/c/ip_check.c -o ~/Documents/NullOS/Null/c/ip_check
 gcc ~/Documents/NullOS/Null/c/dos.c -o ~/Documents/NullOS/Null/c/dos_e
 gcc ~/Documents/NullOS/Null/c/dos/ping1.c -o ~/Documents/NullOS/Null/c/dos/ping1
