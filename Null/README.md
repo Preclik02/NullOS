@@ -29,6 +29,20 @@ g++ ~/Documents/NullOS/Null/cpp/rpg.cpp -o ~/Documents/NullOS/Null/cpp/rpg
 g++ ~/Documents/NullOS/Null/cpp/idek.cpp -o ~/Documents/NullOS/Null/cpp/idek
 gcc ~/Documents/NullOS/Null/c/nmap_check.c -o ~/Documents/NullOS/Null/c/nmap_check
 gcc ~/Documents/NullOS/Null/c/ip_check.c -o ~/Documents/NullOS/Null/c/ip_check
+gcc ~/Documents/NullOS/Null/c/dos.c -o ~/Documents/NullOS/Null/c/dos_e
+gcc ~/Documents/NullOS/Null/c/dos/ping1.c -o ~/Documents/NullOS/Null/c/dos/ping1
+gcc ~/Documents/NullOS/Null/c/dos/ping2.c -o ~/Documents/NullOS/Null/c/dos/ping2
+gcc ~/Documents/NullOS/Null/c/dos/ping3.c -o ~/Documents/NullOS/Null/c/dos/ping3
+gcc ~/Documents/NullOS/Null/c/dos/ping4.c -o ~/Documents/NullOS/Null/c/dos/ping4
+gcc ~/Documents/NullOS/Null/c/dos/ping5.c -o ~/Documents/NullOS/Null/c/dos/ping5
+gcc ~/Documents/NullOS/Null/c/dos/ping6.c -o ~/Documents/NullOS/Null/c/dos/ping6
+gcc ~/Documents/NullOS/Null/c/dos/ping7.c -o ~/Documents/NullOS/Null/c/dos/ping7
+gcc ~/Documents/NullOS/Null/c/dos/ping8.c -o ~/Documents/NullOS/Null/c/dos/ping8
+gcc ~/Documents/NullOS/Null/c/dos/ping9.c -o ~/Documents/NullOS/Null/c/dos/ping9
+gcc ~/Documents/NullOS/Null/c/dos/ping10.c -o ~/Documents/NullOS/Null/c/dos/ping10
+gcc ~/Documents/NullOS/Null/c/scan/ip1.c -o ~/Documents/NullOS/Null/c/scan/ip1
+gcc ~/Documents/NullOS/Null/c/scan/ip2.c -o ~/Documents/NullOS/Null/c/scan/ip2
+gcc ~/Documents/NullOS/Null/c/scan/ip3.c -o ~/Documents/NullOS/Null/c/scan/ip3
 ```
 
 
