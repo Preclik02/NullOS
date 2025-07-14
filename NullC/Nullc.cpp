@@ -6,7 +6,7 @@ using namespace std;
 
 int main() {
     
-    system("python Arcc.py");
+    system("python Nullc.py");
 
     string path = "~/Documents/filenames.txt";
 
